@@ -4,127 +4,127 @@
 
 let questionsData = [
     {
-      text: "L'arc de Usopp :",
+      text: "Le/la meilleur(e) ami(e) de Goku :",
       answers: [
         {
-          text: "Alabasta",
+          text: "Vegeta",
           isCorrect: false
         },
         {
-          text: "Village Sirop",
+          text: "Krillin",
           isCorrect: true
         },
         {
-          text: "Thriller Bark",
+          text: "Bulma",
           isCorrect: false
         },
         {
-          text: "Water Seven",
+          text: "Tortue Géniale",
           isCorrect: false
         }
       ]
     },
     {
-      text: "Le plat préféré de Luffy : ",
+      text: "Le 1er ennemi de Goku: ",
       answers: [
         {
-          text: "La viande",
+          text: "Tao pai pai",
           isCorrect: true
         },
         {
-          text: "Les ramens",
+          text: "Piccolo",
           isCorrect: false
         },
         {
-          text: "La pizzas",
+          text: "Yajirobe",
           isCorrect: false
         },
         {
-          text: "Le couscous",
+          text: "Pilaf",
           isCorrect: false
         }
       ]
     },
     {
-      text: "Le fruit du démon de Baggy :  ",
+      text: "L'unitée de puissance dans Dragon ball:  ",
       answers: [
         {
-          text: "Awa Awa no Mi",
+          text: "Les muscles",
           isCorrect: false
         },
         {
-          text: "Tori Tori no Mi",
+          text: "Le nen",
           isCorrect: false
         },
         {
-          text: "Bara Bara no Mi",
+          text: "Le ki",
           isCorrect: true
         },
         {
-          text: "Ushi Ushi no Mi",
+          text: "Le reiatsu",
           usCorrect: false
         }
       ]
     },
     {
-      text: "Le village ou Luffy est né : ",
+      text: "La condition d'entrainement de Tortue géniale : ",
       answers: [
         {
-          text: "Fuchsia",
+          text: "Rammener une jolie fille",
           isCorrect: true
         },
         {
-          text: "Gosa",
+          text: "Rammener une pierre",
           isCorrect: false
         },
         {
-          text: "Loguetown",
+          text: "Rammener du lait",
           isCorrect: false
         },
         {
-          text: "Shells town",
+          text: "Rammener la coupe a la maison",
           isCorrect: false
         }
       ]
     },
     {
-      text: "L'origine de Zoro selon Oda : ",
+      text: "Qui a coupé la queue de Goku pour la première fois : ",
       answers: [
         {
-          text: "Brésilien",
+          text: "Bulma",
           isCorrect: false
         },
         {
-          text: "Russe",
+          text: "Tortue géniale",
           isCorrect: false
         },
         {
-          text: "Japonais",
+          text: "Yamcha",
           isCorrect: true
         },
         {
-          text: "Juif",
+          text: "Krillin",
           isCorrect: false
         }
       ]
     },
     {
-        text: "Chopper adore :",
+        text: "Pourquoi Krillin n'a t'il pas de nez :",
         answers: [
           {
-            text: "Les bains",
+            text: "Toriyama trouvait ça drôle",
             isCorrect: true
           },
           {
-            text: "Le miel",
+            text: "On lui a volé",
             isCorrect: false
           },
           {
-            text: "La barbe à papa",
+            text: "Il est invisible",
             isCorrect: true
           },
           {
-            text: "Le poisson",
+            text: "Il est né comme ça",
             isCorrect: false
           }
         ]
