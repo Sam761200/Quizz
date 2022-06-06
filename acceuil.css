@@ -1,0 +1,151 @@
+
+* {
+	box-sizing: border-box; 
+}
+html {
+	font-size: 62.5%; 
+}
+body {
+	font-size: 1.6rem; 
+}
+
+body {
+	margin:0;
+	font-family: sans-serif;
+	color: #555;
+	background-color: #eee;
+}
+
+.header h1 {
+	margin-top:0;
+}
+
+.menu ul {
+    list-style:none;
+    padding:0;
+    background-color: rgb(48, 6, 46);
+}
+
+.menu > ul {
+    display:flex;
+    justify-content:center;
+}
+
+.menu > ul > li > ul {
+    display:none;
+    position:absolute
+}
+
+.menu > ul > li:hover ul {
+    display:block;
+}
+
+.menu a {
+    padding:1em 2em;
+    color:#fff;
+    display: inline-block;
+    min-width:12em;
+}
+
+.menu a:hover {
+    text-decoration:none;
+    background-color: #DD5735;
+}
+h1 {
+	font-size: 4rem;
+	color: #fff;
+}
+
+
+h2 {
+	font-size: 3.2rem;
+	color: #1d4db0;
+}
+
+
+
+h3 {
+	font-size: 2.4rem;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+
+main {
+	padding: 2em;
+}
+
+article {
+    display:block;
+	padding: 1em;
+    margin:1em
+	
+}
+.quizz{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3);
+    gap:1em;
+    justify-content: center;
+}
+.h2quizz{
+    opacity:0;
+    text-align: center;
+    color:white;
+    padding:1em;
+    margin:0;
+}
+.image:hover .h2quizz{ 
+    border:1px;
+    background-color: rgb(35, 79, 160);
+    opacity:1;
+    transition:0.5s;
+}
+.onepiece{
+    background-image: url(img/Zoro.jpeg);
+}
+.naruto{
+    background-image: url(img/Naruto.jpg);
+}
+.dragonball{
+    background-image: url(img/Dragonball.jpg);
+}
+.aot{
+    background-image: url(img/Aot.jpg);
+}
+.image{
+	border:5px solid black;
+	background-size:cover;
+    background-position:center;
+    padding:5em;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container {
+	max-width: 1100px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.header {
+	padding:1em;
+	text-align: center;
+	background-color: rgb(48, 6, 46);
+	color:#444;
+}
+
+.footer {
+	padding:1em;
+	text-align: center;
+	background-color: rgb(48, 6, 46);
+	color:#fff;
+	font-size:3em
+}
+
+
+
