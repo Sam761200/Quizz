@@ -29,7 +29,7 @@ let questionsData = [
       answers: [
         {
           text: "Tao pai pai",
-          isCorrect: true
+          isCorrect: false
         },
         {
           text: "Piccolo",
@@ -41,7 +41,7 @@ let questionsData = [
         },
         {
           text: "Pilaf",
-          isCorrect: false
+          isCorrect: true
         }
       ]
     },
