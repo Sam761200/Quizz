@@ -7,12 +7,13 @@ html {
 }
 body {
 	font-size: 1.6rem; 
-    background-color: #5735dd;
+    background-color: #ffffff;
     margin:0;
     padding:0;
     height:100%;
     font-family: sans-serif;
 	color: #555;
+    
 }
 
 .header h1 {
@@ -54,7 +55,7 @@ h1 {
 
 
 h2 {
-	font-size: 3.2rem;
+	font-size: 2.2rem;
 	color: #1d4db0;
 }
 
@@ -74,19 +75,19 @@ main {
 }
 
 article {
-    display:block;
-	padding: 1em;
     margin:1em;
 }
 .quizz{
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3 auto);
     gap:5px;
     justify-content: center;
+    padding:2em;
 }
 .h2quizz{
     opacity:0;
+    font-size: 1em;
     text-align: center;
     color:white;
     padding:1em;
@@ -99,7 +100,7 @@ article {
     transition:0.5s;
 }
 .onepiece{
-    background-image: url(img/Zoro.jpeg);
+    background-image: url(img/Zoro.jpg);
 }
 .naruto{
     background-image: url(img/Naruto.jpg);
@@ -110,13 +111,25 @@ article {
 .aot{
     background-image: url(img/Aot.jpg);
 }
+.bleach{
+    background-image: url(img/bleach.jpg);
+}
+.jojo{
+    background-image: url(img/jojo.jpg);
+}
+.hunter{
+    background-image: url(img/hunter.jpg);
+}
+.demonslayer{
+    background-image: url(img/demonslayer.jpg);
+}
 .image{
 	border:5px solid black;
-	background-size:cover;
     background-position:center;
     padding:5em;
-    max-width: 100%;
-    max-height: 100%;
+    max-width:100%;
+    max-height:100%;
+    height:250px
 }
 
 .container {
