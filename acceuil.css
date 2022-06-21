@@ -68,6 +68,8 @@ h3 {
 a {
 	text-decoration: none;
 	color: #333;
+    margin:0;
+    padding:0;
 }
 
 main {
@@ -130,6 +132,7 @@ article {
     width:90%;
     height:90%;
     object-fit:cover;
+
 }
 
 .container {
